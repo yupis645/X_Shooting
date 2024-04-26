@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="schoollibrary">
+      <UniqueIdentifier>{59bb0d38-0bc5-450b-9a5d-ccb0c8cc6c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{1b40f771-00b2-4efd-8584-13f5bac28e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy">
+      <UniqueIdentifier>{3576e7cc-af2f-4b99-8c53-3564bfd2ce7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Debug">
+      <UniqueIdentifier>{6b5171f4-144b-496a-bd41-d4f2e7e548f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Player">
+      <UniqueIdentifier>{612a3020-2d93-4491-8f48-bad91ee367a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\EnemiesCommon">
+      <UniqueIdentifier>{b2f301a1-921f-49e6-a59b-4b1333a4be85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameLoop">
+      <UniqueIdentifier>{06472c81-cca5-48db-9377-27a3aeb76e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Data">
+      <UniqueIdentifier>{15167cd6-c7b3-4c8f-a776-0685ba0903fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Title.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SchooLlibrary\conioex.h">
+      <Filter>schoollibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_logics\Player\Player.h">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_logics\Enemy\Air_Enemy.h">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_logics\Enemy\Boss.h">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_logics\Enemy\Ground_Enemy.h">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_logics\Data\GameData.h">
+      <Filter>ソース ファイル\Game\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SchooLlibrary\conioex.cpp">
+      <Filter>schoollibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>ソース ファイル\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル\GameLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_logics\Enemy\Air_Enemy.cpp">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_logics\Enemy\Boss.cpp">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_logics\Enemy\Ground_Enemy.cpp">
+      <Filter>ソース ファイル\Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_logics\DebugCode\Debug.cpp">
+      <Filter>ソース ファイル\Game\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_logics\Player\Player.cpp">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_logics\Enemy\common\EnemyShot.cpp">
+      <Filter>ソース ファイル\Game\EnemiesCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_logics\Enemy\common\Eenemycommon.cpp">
+      <Filter>ソース ファイル\Game\EnemiesCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_logics\Data\GameData.cpp">
+      <Filter>ソース ファイル\Game\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_logics\Data\Map.cpp">
+      <Filter>ソース ファイル\Game\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
